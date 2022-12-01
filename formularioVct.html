@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <title>Formulario Registro</title>
+  <title>INGRESO A VOTACION - DUOC AVA</title>
 </head>
 <body>
   <section class="form-register">
-    <h4>Formulario Registro</h4>
-    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <h4>INICIO SESION</h4>
     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
     <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
     <p> Aceptar <a href="#">Terminos y Condiciones</a></p>
-    <input class="botons" type="submit" value="Registrar">
+    <a onclick="gtag('event','votacion.html', {'event_category': 'ClickLinkExterno', 'event_label': 'Correo'});" href="votacion.html" target="_blank" class="biblioteca d-block text-primary py-1 d-flex align-items-center">
+      <input class="botons" type="submit" value="Registrar">  <span></span>
+    </a>
     <p><a href="#">¿Ya tengo Cuenta?</a></p>
   </section>
 
