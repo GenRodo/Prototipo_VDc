@@ -208,7 +208,7 @@ PANELES
 
   /* Panel Header */
   .cs-panel__header {
-  	position: fixed;
+    position: fixed;
     width: 100%;
     height: 70px;
     line-height: 70px;
